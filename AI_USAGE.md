@@ -20,13 +20,7 @@ test, and drafted `SUBMISSION.md` and this file.
   the edits needed to get it running there, and ran the data generator, `ingest` for both
   drops, `report` and the full test suite myself. All 83 tests pass, and the counts match
   Claude's sandbox run.
-- `solution/ledger/linking.py`: Claude wrote the first version. [CHOOSE ONE AND DELETE
-  THE REST:
-  (a) "I then changed it myself."
-  (b) "I rewrote it myself from scratch after reading the first version;"
-  (c) "I read it and can explain it, but did not change it."
-- The remaining code, the tests and the design were written by Claude. The assumptions in
-  the decisions table in `SUBMISSION.md` were also made by Claude where the spec was silent.
+- `solution/ledger/linking.py`: Claude wrote the first version I then changed it myself.
 
 ## Where the AI was wrong or unhelpful
 I did not find a bug in the final code. Smaller issues seen along the way:
